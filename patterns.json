@@ -1,0 +1,90 @@
+{
+  "stop_pattern": {
+    "name": "СТОП",
+    "description": "Короткий сигнал остановки",
+    "pattern": [
+      200,
+      200,
+      200,
+      500
+    ],
+    "default": true
+  },
+  "danger_pattern": {
+    "name": "ОПАСНО",
+    "description": "Экстренный сигнал опасности",
+    "pattern": [
+      300,
+      100,
+      300,
+      100,
+      300,
+      100,
+      300
+    ],
+    "default": true
+  },
+  "help_pattern": {
+    "name": "ПОМОЩЬ",
+    "description": "Сигнал помощи (SOS)",
+    "pattern": [
+      200,
+      100,
+      200,
+      100,
+      200,
+      500,
+      400,
+      100,
+      400,
+      100,
+      400,
+      500,
+      200,
+      100,
+      200,
+      100,
+      200
+    ],
+    "default": true
+  },
+  "dog_pattern": {
+    "name": "Лай собаки",
+    "description": "Паттерн для лая собаки",
+    "pattern": [
+      150,
+      50,
+      150,
+      50,
+      150,
+      200
+    ],
+    "default": true
+  },
+  "baby_pattern": {
+    "name": "Плач ребенка",
+    "description": "Паттерн для плача ребенка",
+    "pattern": [
+      100,
+      50,
+      100,
+      50,
+      100,
+      50,
+      100,
+      100,
+      100
+    ],
+    "default": true
+  },
+  "doorbell_pattern": {
+    "name": "Звонок двери",
+    "description": "Паттерн для звонка двери",
+    "pattern": [
+      300,
+      100,
+      300
+    ],
+    "default": true
+  }
+}

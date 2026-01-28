@@ -1,13 +1,10 @@
-# Зависимости для Умного браслета с нейросетью
-# Установка: pip install -r requirements.txt
-
-# Обработка аудио
-pyaudio>=0.2.11
-
-# Научные вычисления и нейросети
+# Audio
+sounddevice>=0.4.6
 numpy>=1.21.0
 
-# Опционально: для работы с реальным железом (Arduino/ESP32)
-# pyserial>=3.5
+# Speech Recognition
+faster-whisper>=0.10.0
+soundfile>=0.12.1
 
-# GUI уже встроен в Python (tkinter)
+# Utils
+regex

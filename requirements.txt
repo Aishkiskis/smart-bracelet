@@ -1,10 +1,17 @@
-# Audio
-sounddevice>=0.4.6
-numpy>=1.21.0
+﻿# Основные библиотеки для нейросетевого браслета
+numpy==1.24.3
+tensorflow==2.10.0
 
-# Speech Recognition
-faster-whisper>=0.10.0
-soundfile>=0.12.1
+# Обработка аудио
+librosa==0.10.0
+sounddevice==0.4.6
+soundfile==0.12.1
 
-# Utils
-regex
+# Машинное обучение
+scikit-learn==1.2.2
+
+# Визуализация (опционально)
+matplotlib==3.7.1
+
+# Утилиты
+scipy==1.10.1

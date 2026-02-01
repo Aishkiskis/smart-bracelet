@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Модели и данные (НЕ загружать в GitHub!)
+models/*.h5
+train_stop/**/*.wav
+*.wav
